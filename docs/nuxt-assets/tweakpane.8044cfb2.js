@@ -1,0 +1,1 @@
+import{P as l}from"./tweakpane.4e5e1789.js";let t;const n={};function a(){return t===void 0&&(t=new l),t}function i(e){var d,r;return(n[e.title]===void 0||(r=(d=n[e.title].controller)==null?void 0:d.viewProps)!=null&&r.get("disposed"))&&(n[e.title]=a().addFolder({expanded:!1,...e})),n[e.title]}export{i as u};
